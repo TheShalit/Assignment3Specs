@@ -19,10 +19,10 @@ public class StudentSpec {
         System.out.println("isEqualTo(): with number " + (number + 1) + ": " + student.isEqualTo(new Student("someName", number + 1)));
 
         Course course = new Course("someCourse", 1);
-        System.out.println("isRegesteredTo(): with number 1: " + student.isRegesteredTo(course));
+        System.out.println("isRegisteredTo(): with number 1: " + student.isRegisteredTo(course));
 
         System.out.println("registering student to course 1: " + student.registerTo(course));
-        System.out.println("isEqualTo(): with number 1: " + student.isRegesteredTo(course));
+        System.out.println("isEqualTo(): with number 1: " + student.isRegisteredTo(course));
 
         System.out.println("registering student to course 1 again: " + student.registerTo(course));
 
